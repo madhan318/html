@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            h1{
+                background-color:rgb(255,0,255);
+                color:yellow;
+                text-align:center;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+             div{
+                text-decoration:50px dotted; color:blue ;
+                background-color:lightblue;
+                font-weight:lighter;
+                font-family:Arial,Helvetica,sans-serif;
+                line-height:67px;
+                text-transform:capitalize:
+
+             }
+             marquee{
+                color:blue;
+                font-weight:100;
+             }
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Student Registration Form</title>
+    </head>
+    <body style="background-color: red;">
+        <marquee> Student Registration Form is open now</marquee>
+        <h1>Student Registration Form</h1>
+        <form action="practise.html" method="get">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id-="name" name="name" placeholder="Enter Your Name" required>
+
+            </div>
+            <div>
+                <label for="roll">Roll No: </label>
+                <input type="number" id="roll" name="roll" placeholder="Enter Your Roll" required>
+            </div>
+            <div>
+                <label for="branch">Branch: </label>
+                <input type="text" id="branch" name="branch" placeholder="Enter Your Branch" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+            </div>
+            <div>
+                <label>Gender: </label>
+                <input checked type="radio" id="male" name="gender" value="male" required>
+                <label for="male"> Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female"> Female</label>
+            </div>
+            <div>
+                <label>Courses: </label>
+                <input type="checkbox" id="html" name="html" value="html" required>
+                <label for="html"> HTML</label>
+                <input type="checkbox" id="css" name="css" value="css" required>
+                <label for="css"> CSS</label>
+                <input type="checkbox" id="java" name="java" value="java" required>
+                <label for="java"> JAVA</label>
+                <input type="checkbox" id="python" name="python" value="python" required>
+                <label for="python"> PYTHON</label>
+            </div>
+            <div>
+                <label for="text">Do you have any questions:</label><br>
+                <textarea type="text" id="text" placeholder="Enter here..."></textarea>
+            </div>
+            <div>
+               <button type="submit" value="submit">Submit</button>
+               <button type="reset" value="reset">Reset</button>
+            </div>
+        </form>
+    </body>
+</html>
